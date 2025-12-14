@@ -1,0 +1,12 @@
+.partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 40px
+}
+.partner img{
+    max-width: 1600px;
+}

@@ -1,0 +1,139 @@
+.upperHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    
+}
+.logo{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-right: 30px;
+}
+/* Container */
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 480px;
+  height: 44px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  font-family: Arial, sans-serif;
+}
+/* Category (left section) exactly like your image */
+.search-category {
+  height: 100%;
+  display: flex;
+  align-items: start;
+  border-right: 1px solid #e0e0e0;
+  background: #ffffff;
+  padding: 0;
+  justify-content: start;
+}
+
+.search-category select {
+  height: 100%;
+  gap: none;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  color: #333;
+  padding: 0 5px 0 14px; /* Reduced right padding from 10px to 5px */
+  cursor: pointer;
+}
+.contact {
+  display: flex;
+  align-items: center;   /* Centers both p and select vertically */
+  gap: 15px;
+  margin-left: 40px;
+}
+
+.contact p {
+  margin: 0;             /* Prevent paragraph from pushing downward */
+  line-height: 1;  
+}
+
+.contact select {
+  height: 40px;          /* Matches paragraph height visually */
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  color: #333;
+  padding: 0 14px;
+  cursor: pointer;
+}
+
+
+.upperHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between logo and search */
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-left: 40px; /* Extra space before contact section */
+}
+
+
+
+/* Input area */
+.search-input-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/* Search icon */
+.search-icon {
+  font-size: 16px;
+  margin-right: 6px;
+  opacity: 0.6;
+}
+
+.search-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  opacity: 0.6;
+}
+
+/* Placeholder input */
+.search-input-area input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Search button */
+.search-btn {
+  background: #c62828;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  font-size: 14px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.search-btn:hover {
+  background: #b71c1c;
+}

@@ -1,0 +1,45 @@
+footer{
+    background-color: #000000 !important;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: white;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; /* Responsive on small screens */
+}
+
+.social-icon {
+    background-color: rgb(151, 0, 0); /* your red */
+    color: white;
+      border-radius: 2px;
+
+    padding: 8px 12px; /* rectangle shape */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+
+.social-icon i {
+    font-size: 18px;
+}
+
+.social-icon:hover {
+    background-color: #ff4a57;
+    transform: translateY(-3px); /* small hover lift */
+}

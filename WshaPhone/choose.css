@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.choose{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.why-choose-us{
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.why-choose-us h2 {
+    text-align: center;
+    
+    width: 100%;
+}
+
+.par {
+    text-align: center;
+    max-width: 300px;
+}
+
+.par img {
+    width: 60px;
+    height: 60px;
+  
+}
+
+.par p {
+    font-size: 14px;
+    color: grey;
+}

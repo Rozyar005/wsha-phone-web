@@ -1,0 +1,43 @@
+.img {
+  position: relative;
+  width: 100%;
+  max-width: 1900px;
+    transition: opacity 0.5s ease-in-out;  
+
+}
+#mainImage {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.img img {
+  width: 100%;
+  display: block;
+  max-width: 1900px;
+  max-height: 800px;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: white;
+}
+
+.dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
