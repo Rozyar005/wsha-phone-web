@@ -24,19 +24,3 @@ This project is built on the fundamental pillars of the web, ensuring maximum co
 | **Styling** | **CSS3** | Custom stylesheets (`style.css`) handling layouts, colors, and responsive grids. |
 | **Assets** | **Images** | Product renders and icons used to populate the store interface. |
 
----
-
-## 📂 Project Structure
-
-Here is the sitemap of the application:
-
-```text
-Wsha-Phone/
-└── 📁 WshaPhone/             # 📦 Main Application Folder
-    ├── 🏠 index.html         # Landing Page (The digital storefront)
-    ├── 🎨 style.css          # Global Stylesheet (The look & feel)
-    ├── 👤 login.html         # User Sign-in Interface
-    ├── 📝 register.html      # New User Registration
-    ├── 📞 Contact.html       # Customer Support Page
-    ├── ℹ️ AboutUs.html       # Company Information
- 
