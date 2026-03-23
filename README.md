@@ -5,13 +5,10 @@
 ![Category](https://img.shields.io/badge/focus-E--Commerce%20UI-blue?style=for-the-badge)
 
 ## 📖 Project Breakdown
-**Buying a phone should look as good as the phone itself.** ✨
 
-**Wsha-Phone** is a responsive web interface designed for an online mobile phone store. Unlike generic templates, this project implements a multi-page architecture that segregates products by brand ecosystem (Apple, Samsung, Huawei, Xiaomi) while providing essential e-commerce utility pages like User Authentication and Contact forms.
+**Wsha-Phone** is a responsive web interface designed for an online mobile phone store.
 
 **Key Features:**
-* **🛍️ Brand-Specific Catalogs:** Dedicated pages for major manufacturers (`Iphone.html`, `Samsung.html`, etc.) to organize inventory.
-* **🔐 Auth UI:** Custom-designed **Login** and **Registration** forms ready for backend integration.
 * **📱 Responsive Design:** Built with pure CSS (`style.css`) to ensure it looks crisp on desktops and mobile devices.
 * **📍 Information Architecture:** Includes "About Us" and "Contact" pages for business legitimacy.
 
@@ -25,7 +22,6 @@ This project is built on the fundamental pillars of the web, ensuring maximum co
 | :--- | :--- | :--- |
 | **Structure** | **HTML5** | Semantic markup for accessibility and SEO-friendly structure. |
 | **Styling** | **CSS3** | Custom stylesheets (`style.css`) handling layouts, colors, and responsive grids. |
-| **Interactivity** | **JavaScript** | *[Optional]* Handles DOM manipulation for UI elements like sliders or form validation. |
 | **Assets** | **Images** | Product renders and icons used to populate the store interface. |
 
 ---
@@ -43,7 +39,4 @@ Wsha-Phone/
     ├── 📝 register.html      # New User Registration
     ├── 📞 Contact.html       # Customer Support Page
     ├── ℹ️ AboutUs.html       # Company Information
-    ├── 🍎 Iphone.html        # Apple Product Catalog
-    ├── 🌌 Samsung.html       # Samsung Product Catalog
-    ├── 🔴 Huawei.html        # Huawei Product Catalog
-    └── 🟠 Xiomi.html         # Xiaomi Product Catalog
+ 
